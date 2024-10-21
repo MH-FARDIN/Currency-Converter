@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Exchange</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <form action="">
+            <div class="amount">
+                <p>Enter Value</p>
+                <input value="1" type="number">
+            </div>
+            <div class="dropdown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from" id="">
+                            <!-- <option selected="selected" value="bdt">BDT</option>
+                            <option value="usd">USD</option>
+                            <option value="inr">INR</option>
+                            <option value="euro">EURO</option> -->
+                        </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/BD/flat/64.png" alt="">
+                        <select name="to" id="">
+                            <!-- <option value="bdt">BDT</option>
+                            <option selected="selected" value="usd">USD</option>
+                            <option value="inr">INR</option>
+                            <option value="euro">EURO</option> -->
+                        </select>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="msg">
+
+            </div>
+            <button>Get Exchange Rate</button>
+        </form>
+
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
